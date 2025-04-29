@@ -1,0 +1,261 @@
+%LTeX: language=en-US
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+  \textbf{\Huge \scshape Andres Vasquez-Restrepo} \\ \vspace{1pt}
+  \small (+57)3005258250 $|$ \href{mailto:anvasquezre@gmail.com}{\underline{anvasquezre@gmail.com}} $|$
+  \href{https://linkedin.com/in/anvasquezre}{\underline{linkedin.com/in/anvasquezre}} $|$
+  \href{https://github.com/anvasquezre}{\underline{github.com/anvasquezre}} $|$ Medellin, Colombia
+
+\end{center}
+
+\paragraph{}
+Senior Machine Learning Engineer with over five years (5+) of experience specializing
+in NLP, Document AI, speech analytics, and unstructured data analysis. I have
+designed and deployed more than 8 AI solutions in production, optimizing
+pipelines that process thousands of requests per hour and hundreds of documents
+and audio hours with 95\% accuracy. My expertise spans PyTorch, OpenCV, YOLO,
+and LangChain, with a strong focus on MLOps to ensure scalable, reliable AI
+systems.
+
+\paragraph{}I have led projects that analyze large-scale text and speech data, enabling
+75\% faster decision-making and automating hundreds of hours of manual work per
+week. I thrive on bridging the gap between AI research and business impact,
+translating complex models into real-world solutions that drive measurable
+results.
+
+Beyond coding, I enjoy simplifying technical concepts for engineers, business
+teams, and clients—because clear communication is as vital as well-optimized
+algorithms.
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Master of Science in Artificial Intelligence }{La Rioja, España}
+{Universidad Internacional de la Rioja}{Sept. 2024 -- Present}
+\resumeSubheading
+{Master of Science in Computational Biology and Bioinformatics }{Medellín, Colombia}
+{Universidad Nacional de Colombia}{Aug. 2019 -- Dec. 2021}
+
+\resumeSubheading
+{Bachelor of Engineering in Biotechnology}{Medellín, Colombia}
+{Universidad Nacional de Colombia}{Jan. 2014 -- Aug . 2019}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Senior Machine Learning Engineer (L4)}{Aug. 2024 -- Present}
+{Provectus}{SF, USA, Remote}
+\resumeItemListStart
+\resumeItem{Led the development of machine learning workflows for data processing, model training, evaluation, and deployment in “The Sphere” project.}
+\resumeItem{Took ownership of critical ML tasks and features, ensuring integration, optimization, and alignment with project goals.}
+\resumeItem{Implemented MLOps best practices, including data and model versioning, experiment tracking, and reproducibility for large-scale LLM deployments.}
+\resumeItem{Developed and optimized distributed training pipelines using multi-GPU/TPU architectures for large-scale NLP models.}
+\resumeItem{Designed and deployed cloud-native ML solutions on AWS, leveraging serverless architectures, cost optimization strategies, and multi-cloud integrations.}
+\resumeItem{Integrated large-scale text data pipelines with cloud-based data lakes and warehouses, ensuring efficient storage, retrieval, and processing.}
+\resumeItem{Collaborated with cross-functional teams to align ML models with business objectives, ensuring high-impact AI solutions.}
+\resumeItemListEnd
+
+
+\resumeSubheading
+{Lead Machine Learning and Artificial Intelligence Engineer}{Jul. 2023 -- Aug. 2024}
+{Tenant Evaluation}{FL, USA, Remote}
+\resumeItemListStart
+\resumeItem{Designed, developed, and deployed over 5 AI/ML solutions while mentoring junior developers.}
+\resumeItem{Engineered a production-grade AI-driven virtual assistant serving 20,000 users monthly, reducing support ticket load by 50\%.}
+\resumeItem{Architected a microservices framework with 6 components integrating REST APIs and WebSockets.}
+\resumeItem{Implemented a Document AI platform automating 75\% of internal document processing, cutting costs from \$9,000 to \$236 per month.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Machine Learning Engineer}{Sep. 2022 -- Jul. 2023}
+{AnyoneAI}{ SF, USA, Remote}
+\resumeItemListStart
+\resumeItem{Developed and deployed 3+ end-to-end ML solutions for global clients, covering recommendation systems and classification models.}
+\resumeItem{Built and maintained ML models for NLP, Computer Vision, and Business Intelligence applications.}
+\resumeItem{Automated e-commerce reporting with Apache Airflow, reducing report generation time from hours to minutes.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Data Scientist}{Sep. 2021 -- Sep. 2022}
+{Grinsup}{Medellín, Colombia}
+\resumeItemListStart
+\resumeItem{Developed pricing algorithms that maintained a 40\% gross profit margin, boosting net profit by 10\%.}
+\resumeItem{Created nutritional estimation models using multi-objective optimization for efficient product development.}
+\resumeItem{Recognized as a leader in Colombian innovation and selected for the Young Leaders of the Americas initiative.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Data Analyst}{Sep. 2019 -- Sep. 2021}
+{Centricol Industries}{Medellín, Colombia}
+\resumeItemListStart
+\resumeItem{Led market analysis to develop new biotechnology product lines, increasing revenue by 50\% in two years.}
+\resumeItem{Improved data accessibility by 30\% through centralized data repository implementation.}
+\resumeItem{Generated sales reports that enabled a 50\% increase in revenue through targeted product strategies.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Job Recommendation System for Hunty}}{Mar 2023}
+\resumeItemListStart
+\resumeItem{Developed an end-to-end job recommendation API integrating daily web scraping using Ada-02 embeddings.}
+\resumeItem{Implemented FastAPI with MongoDB and MariaDB for scalable data storage.}
+\resumeItem{Automated job ingestion using DAGs in Apache Airflow, reducing manual work and improving efficiency.}
+\resumeItem{Enabled the platform to post over 1,000 new jobs daily and rank them based on user profiles.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{ChatFLOW}}{Jan 2023}
+\resumeItemListStart
+\resumeItem{Developed an open-source, drag-and-drop chatbot design platform similar to Voiceflow.}
+\resumeItem{Implemented state-of-the-art NLP techniques and Generative AI models to enhance user interactions.}
+\resumeItem{Built modular components enabling users to craft detailed conversational flows with minimal coding.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Programming Languages}{: Python, Javascript, Java} \\
+        \textbf{Machine Learning}{: SQL, TensorFlow, Pytorch, Scikit-learn, XGBoost, LightGBM, LLM, SML, Finetunning, HuggingFace, LangChain, OpenCV, YOLO, Llama.cpp} \\
+        \textbf{Data Processing}{: Pandas, NumPy, NLTK, OpenCV, NetworkX, Apache Airflow} \\
+        \textbf{Cloud \& MLOps}{: AWS (EC2, EKS, Lambda, S3, SageMaker, CloudWatch, RDS, DocumentDB, SQS), Kubernetes, Docker, MLflow, ArgoCD, Jenkins, Rundeck, Grafana, Bash} \\
+        \textbf{Web Frameworks}{: FastAPI, Django} \\
+        \textbf{Databases}{: PostgreSQL, MongoDB, Redis} \\
+        \textbf{Developer Tools}{: Git, Bitbucket, Jira}
+        }}
+\end{itemize}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{AWS AI Practitioner}{: AWS} \\
+        \textbf{English C1 Proficiency}{: Duolingo English Test 120/160} \\
+        \textbf{Applied Machine Learning}{: University of Michigan} \\
+        \textbf{Machine Learning with Python}{: IBM} \\
+        \textbf{Leadership and Team management}{: University of Florida} \\
+        \textbf{Leader of the Americas}{: Department of State, United States} \\
+
+        }}
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
+
